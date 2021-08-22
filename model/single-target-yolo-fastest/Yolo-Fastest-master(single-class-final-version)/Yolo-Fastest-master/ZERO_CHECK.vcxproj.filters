@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3645458dba291a78367ceb3af014224f\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3110F11C-2ED7-38AC-96F5-F8AAF5056E11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

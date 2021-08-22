@@ -1,0 +1,6 @@
+h5转量化后的tflite：
+D:/Pycharm/Python3_6_8/python.exe D:/test/keras-YOLOv3-model-set-master/keras-YOLOv3-model-set-master/tools/model_converter/post_train_quant_convert.py --keras_model_file ./model/yolo-fastest.h5 --annotation_file D:/test/test.txt --model_input_shape 160x160 --sample_num 1 --output_file ./model/yolo-fastest-int.tflite
+h5转一般的tflite:
+D:/Pycharm/Python3_8_10/python.exe tools/model_converter/custom_tflite_convert.py --keras_model_file ./model/yolo-fastest.h5 --output_file ./model/yolo-fastest.tflite
+weights转h5：
+D:/Pycharm/Python3_8_10/python.exe tools/model_converter/convert.py yolo-fastest-1.1.cfg yolo-fastest-1.1.weights model/yolo-fastest.h5  -f -p

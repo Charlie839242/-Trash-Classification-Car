@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\yolo_v2_class.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\activation_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\activations.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\art.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\avgpool_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\batchnorm_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\blas.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\box.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\captcha.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\cifar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\classifier.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\coco.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\col2im.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\compare.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\connected_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\conv_lstm_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\convolutional_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\cost_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\cpu_gemm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\crnn_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\crop_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\dark_cuda.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\deconvolutional_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\demo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\detection_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\detector.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\dice.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\dropout_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\gaussian_yolo_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\gemm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\getopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\gettimeofday.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\go.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\gru_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\im2col.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\image.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\local_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\lstm_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\matrix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\maxpool_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\network.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\nightmare.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\normalization_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\option_list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\region_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\reorg_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\reorg_old_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\rnn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\rnn_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\rnn_vid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\route_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\sam_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\scale_channels_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\shortcut_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\softmax_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\super.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\swag.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\tag.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\tree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\upsample_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\voxel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\writing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\yolo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\yolo_layer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\http_stream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\image_opencv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include\yolo_v2_class.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\activation_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\activations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\avgpool_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\batchnorm_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\blas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\box.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\classifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\col2im.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\connected_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\conv_lstm_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\convolutional_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\cost_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\crnn_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\crop_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\dark_cuda.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\darkunistd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\deconvolutional_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\demo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\detection_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\dropout_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\gaussian_yolo_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\gemm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\getopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\gettimeofday.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\gru_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\http_stream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\httplib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\im2col.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\image_opencv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\local_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\lstm_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\maxpool_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\network.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\normalization_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\option_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\region_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\reorg_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\reorg_old_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\rnn_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\route_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\sam_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\scale_channels_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\shortcut_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\softmax_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\upsample_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\yolo_layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include\darknet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="src\activation_kernels.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\avgpool_layer_kernels.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\blas_kernels.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\col2im_kernels.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\convolutional_kernels.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\crop_layer_kernels.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\deconvolutional_kernels.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\dropout_layer_kernels.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\im2col_kernels.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\maxpool_layer_kernels.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="src\network_kernels.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A1D7EBB1-6EEA-37D5-91BA-D9759FC40FC6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CAFCC213-8DDF-39EE-AB42-D9C08976494A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F97C2B6E-60EF-3D65-9CD3-33FCB48D631B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>uselib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 10.2.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">uselib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">uselib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">uselib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">uselib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">uselib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">uselib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">uselib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">uselib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include;D:\NVIDIA\CUDA\include;D:\opencv\opencv451\opencv\build\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4013;4018;4028;4047;4068;4090;4101;4113;4133;4190;4244;4267;4305;4477;4996;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;USE_CMAKE_LIBS;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;CUDNN;OPENCV;_CRT_SECURE_NO_WARNINGS;GPU;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;USE_CMAKE_LIBS;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;CUDNN;OPENCV;_CRT_SECURE_NO_WARNINGS;GPU;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include;D:\NVIDIA\CUDA\include;D:\opencv\opencv451\opencv\build\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include;D:\NVIDIA\CUDA\include;D:\opencv\opencv451\opencv\build\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Debug\darknetd.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451d.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451d.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451d.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451d.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451d.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451d.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451d.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451d.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451d.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451d.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451d.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451d.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451d.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451d.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451d.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451d.lib;3rdparty\pthreads\lib\pthreadVC2.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/Debug/uselib.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/Debug/uselib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <CudaLink>
+      <AdditionalOptions>-forward-unknown-to-host-compiler -Wno-deprecated-gpu-targets </AdditionalOptions>
+      <PerformDeviceLink>false</PerformDeviceLink>
+    </CudaLink>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include;D:\NVIDIA\CUDA\include;D:\opencv\opencv451\opencv\build\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4013;4018;4028;4047;4068;4090;4101;4113;4133;4190;4244;4267;4305;4477;4996;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;CUDNN;OPENCV;_CRT_SECURE_NO_WARNINGS;GPU;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;CUDNN;OPENCV;_CRT_SECURE_NO_WARNINGS;GPU;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include;D:\NVIDIA\CUDA\include;D:\opencv\opencv451\opencv\build\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include;D:\NVIDIA\CUDA\include;D:\opencv\opencv451\opencv\build\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Release\darknet.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;3rdparty\pthreads\lib\pthreadVC2.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/Release/uselib.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/Release/uselib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <CudaLink>
+      <AdditionalOptions>-forward-unknown-to-host-compiler -Wno-deprecated-gpu-targets </AdditionalOptions>
+      <PerformDeviceLink>false</PerformDeviceLink>
+    </CudaLink>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include;D:\NVIDIA\CUDA\include;D:\opencv\opencv451\opencv\build\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4013;4018;4028;4047;4068;4090;4101;4113;4133;4190;4244;4267;4305;4477;4996;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;CUDNN;OPENCV;_CRT_SECURE_NO_WARNINGS;GPU;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;CUDNN;OPENCV;_CRT_SECURE_NO_WARNINGS;GPU;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include;D:\NVIDIA\CUDA\include;D:\opencv\opencv451\opencv\build\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include;D:\NVIDIA\CUDA\include;D:\opencv\opencv451\opencv\build\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>MinSizeRel\darknet.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;3rdparty\pthreads\lib\pthreadVC2.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/MinSizeRel/uselib.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/MinSizeRel/uselib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <CudaLink>
+      <AdditionalOptions>-forward-unknown-to-host-compiler -Wno-deprecated-gpu-targets </AdditionalOptions>
+      <PerformDeviceLink>false</PerformDeviceLink>
+    </CudaLink>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include;D:\NVIDIA\CUDA\include;D:\opencv\opencv451\opencv\build\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4013;4018;4028;4047;4068;4090;4101;4113;4133;4190;4244;4267;4305;4477;4996;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;CUDNN;OPENCV;_CRT_SECURE_NO_WARNINGS;GPU;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;USE_CMAKE_LIBS;_CRT_RAND_S;NOMINMAX;_USE_MATH_DEFINES;CUDNN;OPENCV;_CRT_SECURE_NO_WARNINGS;GPU;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include;D:\NVIDIA\CUDA\include;D:\opencv\opencv451\opencv\build\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include;D:\NVIDIA\CUDA\include;D:\opencv\opencv451\opencv\build\include;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\darknet.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib;3rdparty\pthreads\lib\pthreadVC2.lib;wsock32.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/RelWithDebInfo/uselib.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/RelWithDebInfo/uselib.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <CudaLink>
+      <AdditionalOptions>-forward-unknown-to-host-compiler -Wno-deprecated-gpu-targets </AdditionalOptions>
+      <PerformDeviceLink>false</PerformDeviceLink>
+    </CudaLink>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\cmake\bin\cmake.exe -SD:/test/Yolo-Fastest-master1/Yolo-Fastest-master -BD:/test/Yolo-Fastest-master1/Yolo-Fastest-master --check-stamp-file D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\cmake\share\cmake-3.21\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\cmake\share\cmake-3.21\Modules\CMakeCInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCUDAInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeDependentOption.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeParseImplicitLinkInfo.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;D:\cmake\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake;D:\cmake\share\cmake-3.21\Modules\CheckIncludeFile.cmake;D:\cmake\share\cmake-3.21\Modules\CheckLanguage.cmake;D:\cmake\share\cmake-3.21\Modules\CheckLibraryExists.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\NVIDIA-CUDA.cmake;D:\cmake\share\cmake-3.21\Modules\FindOpenMP.cmake;D:\cmake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;D:\cmake\share\cmake-3.21\Modules\FindPackageMessage.cmake;D:\cmake\share\cmake-3.21\Modules\FindThreads.cmake;D:\cmake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-NVIDIA-CUDA.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;D:\cmake\share\cmake-3.21\Modules\SelectLibraryConfigurations.cmake;D:\cmake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake;D:\opencv\opencv451\opencv\build\OpenCVConfig-version.cmake;D:\opencv\opencv451\opencv\build\OpenCVConfig.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCUDACompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCXXCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeRCCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeSystem.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\DarknetConfig.cmake.in;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindCUDNN.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindPThreads_windows.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindStb.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\cmake\bin\cmake.exe -SD:/test/Yolo-Fastest-master1/Yolo-Fastest-master -BD:/test/Yolo-Fastest-master1/Yolo-Fastest-master --check-stamp-file D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\cmake\share\cmake-3.21\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\cmake\share\cmake-3.21\Modules\CMakeCInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCUDAInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeDependentOption.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeParseImplicitLinkInfo.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;D:\cmake\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake;D:\cmake\share\cmake-3.21\Modules\CheckIncludeFile.cmake;D:\cmake\share\cmake-3.21\Modules\CheckLanguage.cmake;D:\cmake\share\cmake-3.21\Modules\CheckLibraryExists.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\NVIDIA-CUDA.cmake;D:\cmake\share\cmake-3.21\Modules\FindOpenMP.cmake;D:\cmake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;D:\cmake\share\cmake-3.21\Modules\FindPackageMessage.cmake;D:\cmake\share\cmake-3.21\Modules\FindThreads.cmake;D:\cmake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-NVIDIA-CUDA.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;D:\cmake\share\cmake-3.21\Modules\SelectLibraryConfigurations.cmake;D:\cmake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake;D:\opencv\opencv451\opencv\build\OpenCVConfig-version.cmake;D:\opencv\opencv451\opencv\build\OpenCVConfig.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCUDACompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCXXCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeRCCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeSystem.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\DarknetConfig.cmake.in;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindCUDNN.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindPThreads_windows.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindStb.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\cmake\bin\cmake.exe -SD:/test/Yolo-Fastest-master1/Yolo-Fastest-master -BD:/test/Yolo-Fastest-master1/Yolo-Fastest-master --check-stamp-file D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\cmake\share\cmake-3.21\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\cmake\share\cmake-3.21\Modules\CMakeCInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCUDAInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeDependentOption.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeParseImplicitLinkInfo.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;D:\cmake\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake;D:\cmake\share\cmake-3.21\Modules\CheckIncludeFile.cmake;D:\cmake\share\cmake-3.21\Modules\CheckLanguage.cmake;D:\cmake\share\cmake-3.21\Modules\CheckLibraryExists.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\NVIDIA-CUDA.cmake;D:\cmake\share\cmake-3.21\Modules\FindOpenMP.cmake;D:\cmake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;D:\cmake\share\cmake-3.21\Modules\FindPackageMessage.cmake;D:\cmake\share\cmake-3.21\Modules\FindThreads.cmake;D:\cmake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-NVIDIA-CUDA.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;D:\cmake\share\cmake-3.21\Modules\SelectLibraryConfigurations.cmake;D:\cmake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake;D:\opencv\opencv451\opencv\build\OpenCVConfig-version.cmake;D:\opencv\opencv451\opencv\build\OpenCVConfig.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCUDACompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCXXCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeRCCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeSystem.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\DarknetConfig.cmake.in;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindCUDNN.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindPThreads_windows.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindStb.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\cmake\bin\cmake.exe -SD:/test/Yolo-Fastest-master1/Yolo-Fastest-master -BD:/test/Yolo-Fastest-master1/Yolo-Fastest-master --check-stamp-file D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\cmake\share\cmake-3.21\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\cmake\share\cmake-3.21\Modules\CMakeCInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCUDAInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeDependentOption.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeParseImplicitLinkInfo.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;D:\cmake\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake;D:\cmake\share\cmake-3.21\Modules\CheckIncludeFile.cmake;D:\cmake\share\cmake-3.21\Modules\CheckLanguage.cmake;D:\cmake\share\cmake-3.21\Modules\CheckLibraryExists.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\NVIDIA-CUDA.cmake;D:\cmake\share\cmake-3.21\Modules\FindOpenMP.cmake;D:\cmake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;D:\cmake\share\cmake-3.21\Modules\FindPackageMessage.cmake;D:\cmake\share\cmake-3.21\Modules\FindThreads.cmake;D:\cmake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-NVIDIA-CUDA.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;D:\cmake\share\cmake-3.21\Modules\SelectLibraryConfigurations.cmake;D:\cmake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake;D:\opencv\opencv451\opencv\build\OpenCVConfig-version.cmake;D:\opencv\opencv451\opencv\build\OpenCVConfig.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCUDACompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCXXCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeRCCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeSystem.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\DarknetConfig.cmake.in;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindCUDNN.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindPThreads_windows.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindStb.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\yolo_console_dll.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\ZERO_CHECK.vcxproj">
+      <Project>{84663AE3-1AA0-39A5-9E44-8C0471335914}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\dark.vcxproj">
+      <Project>{151E369B-DDBA-3FBD-AF2D-22438C7038BF}</Project>
+      <Name>dark</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 10.2.targets" />
+  </ImportGroup>
+</Project>

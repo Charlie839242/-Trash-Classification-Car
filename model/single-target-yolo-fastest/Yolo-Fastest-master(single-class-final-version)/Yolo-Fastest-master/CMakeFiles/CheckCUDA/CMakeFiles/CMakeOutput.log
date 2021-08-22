@@ -1,0 +1,230 @@
+The system is: Windows - 10.0.18363 - AMD64
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+Compiler:  
+Build flags: 
+Id flags: --keep;--keep-dir;tmp -v
+
+The output was:
+0
+Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2021/8/16 21:41:21。
+节点 1 上的项目“D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\3.21.1\CompilerIdCUDA\CompilerIdCUDA.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdCUDA.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdCUDA.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+AddCudaCompileDeps:
+  D:\vs2015\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /ID:\NVIDIA\CUDA\include /ID:\NVIDIA\CUDA\bin /ID:\NVIDIA\CUDA\include /I. /FIcuda_runtime.h /c D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\3.21.1\CompilerIdCUDA\CMakeCUDACompilerId.cu 
+项目“D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\3.21.1\CompilerIdCUDA\CompilerIdCUDA.vcxproj”(1)正在节点 1 上生成“D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\3.21.1\CompilerIdCUDA\CompilerIdCUDA.vcxproj”(1:2) (CudaBuildCore 个目标)。
+CudaBuildCore:
+  Compiling CUDA source file CMakeCUDACompilerId.cu...
+  cmd.exe /C "D:\Temp1\tmp09fb906780be4c4aad2c88b320f715a3.cmd"
+  "D:\NVIDIA\CUDA\bin\nvcc.exe"  --use-local-env -ccbin "D:\vs2015\VC\bin\x86_amd64" -x cu  -ID:\NVIDIA\CUDA\include -ID:\NVIDIA\CUDA\include  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static -v -g   -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\vc140.pdb /FS /Zi /RTC1 /MDd " -o Debug\CMakeCUDACompilerId.cu.obj "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\3.21.1\CompilerIdCUDA\CMakeCUDACompilerId.cu"
+  
+  D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\3.21.1\CompilerIdCUDA>"D:\NVIDIA\CUDA\bin\nvcc.exe"  --use-local-env -ccbin "D:\vs2015\VC\bin\x86_amd64" -x cu  -ID:\NVIDIA\CUDA\include -ID:\NVIDIA\CUDA\include  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static -v -g   -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\vc140.pdb /FS /Zi /RTC1 /MDd " -o Debug\CMakeCUDACompilerId.cu.obj "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\3.21.1\CompilerIdCUDA\CMakeCUDACompilerId.cu" 
+  #$ _NVVM_BRANCH_=nvvm
+  #$ _SPACE_= 
+  #$ _CUDART_=cudart
+  #$ _HERE_=D:\NVIDIA\CUDA\bin
+  #$ _THERE_=D:\NVIDIA\CUDA\bin
+  #$ _TARGET_SIZE_=
+  #$ _TARGET_DIR_=
+  #$ _TARGET_SIZE_=64
+  #$ _WIN_PLATFORM_=x64
+  #$ TOP=D:\NVIDIA\CUDA\bin/..
+  #$ NVVMIR_LIBRARY_DIR=D:\NVIDIA\CUDA\bin/../nvvm/libdevice
+  #$ PATH=D:\NVIDIA\CUDA\bin/../nvvm/bin;D:\NVIDIA\CUDA\bin;D:\NVIDIA\CUDA\bin/../lib;D:\vs2015\VC\bin\x86_amd64;D:\vs2015\VC\bin;C:\Program Files (x86)\Windows Kits\8.1\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools;D:\vs2015\Common7\tools;D:\vs2015\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\MSBuild\14.0\bin\;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\;;D:\NVIDIA\CUDA\libnvvp;;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;D:\Xshell\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Android;D:\QuickTime\QTSystem\;D:\Matlab\runtime\win64;D:\Matlab\bin;D:\Matlab\polyspace\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Pandoc\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Putty\;D:\Git\cmd;C:\Users\111\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;D:\Latex\miktex\bin\x64\;D:\VScode\Microsoft VS Code\bin;D:\Pycharm??????\PyCharm Community Edition 2021.1.1\bin;D:\Pycharm????\PyCharm 2021.1\bin;D:\cmake\bin;D:\NVIDIA\CUDA\lib\x64;D:\NVIDIA\CUDA\bin;D:\NVIDIA\CUDA Samples\common\lib\x64;D:\NVIDIA\CUDA Samples\bin\win64;D:\NVIDIA\CUDA\lib\x64;D:\NVIDIA\CUDA\bin;D:\NVIDIA\CUDA Samples\common\lib\x64;D:\NVIDIA\CUDA Samples\bin\win64;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.5.0\;C:\Users\111\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;D:\Latex\miktex\bin\x64\;D:\VScode\Microsoft VS Code\bin;D:\Pycharm??????\PyCharm Community Edition 2021.1.1\bin;;D:\Pycharm????\PyCharm 2021.1\bin;;
+  #$ INCLUDES="-ID:\NVIDIA\CUDA\bin/../include"  
+  #$ LIBRARIES=  "/LIBPATH:D:\NVIDIA\CUDA\bin/../lib/x64"
+  #$ CUDAFE_FLAGS=--sdk_dir "C:\Program Files (x86)\Windows Kits\8.1"
+  #$ PTXAS_FLAGS=
+  CMakeCUDACompilerId.cu
+  #$ cl.exe @"D:\Temp1/tmpxft_00002c74_00000000-8.res" > "D:/Temp1/tmpxft_00002c74_00000000-7_CMakeCUDACompilerId.cpp1.ii" 
+  CMakeCUDACompilerId.cu
+  #$ erase D:\Temp1/tmpxft_00002c74_00000000-8.res
+  #$ cicc --microsoft_version=1903 --msvc_target_version=1903 --compiler_bindir "D:/vs2015/VC/bin/x86_amd64/../../.." --allow_managed --debug_mode --sdk_dir "C:\Program Files (x86)\Windows Kits\8.1"  -arch compute_30 -m64 -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_00002c74_00000000-3_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused -nvvmir-library "D:\NVIDIA\CUDA\bin/../nvvm/libdevice/libdevice.10.bc" --gen_module_id_file --module_id_file_name "D:/Temp1/tmpxft_00002c74_00000000-4_CMakeCUDACompilerId.module_id" --orig_src_file_name "D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/CMakeFiles/CheckCUDA/CMakeFiles/3.21.1/CompilerIdCUDA/CMakeCUDACompilerId.cu" --gen_c_file_name "D:/Temp1/tmpxft_00002c74_00000000-6_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "D:/Temp1/tmpxft_00002c74_00000000-6_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "D:/Temp1/tmpxft_00002c74_00000000-6_CMakeCUDACompilerId.cudafe1.gpu"  "D:/Temp1/tmpxft_00002c74_00000000-7_CMakeCUDACompilerId.cpp1.ii" -o "D:/Temp1/tmpxft_00002c74_00000000-6_CMakeCUDACompilerId.ptx"
+  #$ ptxas -arch=sm_30 -m64 -g --dont-merge-basicblocks --return-at-end "D:/Temp1/tmpxft_00002c74_00000000-6_CMakeCUDACompilerId.ptx"  -o "D:/Temp1/tmpxft_00002c74_00000000-9_CMakeCUDACompilerId.sm_30.cubin" 
+  #$ fatbinary -64 --ident="D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/CMakeFiles/CheckCUDA/CMakeFiles/3.21.1/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=30,file=D:/Temp1/tmpxft_00002c74_00000000-9_CMakeCUDACompilerId.sm_30.cubin" "--image3=kind=ptx,sm=30,file=D:/Temp1/tmpxft_00002c74_00000000-6_CMakeCUDACompilerId.ptx" --embedded-fatbin="D:/Temp1/tmpxft_00002c74_00000000-3_CMakeCUDACompilerId.fatbin.c" 
+  #$ erase D:/Temp1/tmpxft_00002c74_00000000-3_CMakeCUDACompilerId.fatbin
+  #$ cl.exe @"D:\Temp1/tmpxft_00002c74_00000000-10.res" > "D:/Temp1/tmpxft_00002c74_00000000-5_CMakeCUDACompilerId.cpp4.ii" 
+  CMakeCUDACompilerId.cu
+  #$ erase D:\Temp1/tmpxft_00002c74_00000000-10.res
+  #$ cudafe++ --microsoft_version=1903 --msvc_target_version=1903 --compiler_bindir "D:/vs2015/VC/bin/x86_amd64/../../.." --allow_managed --debug_mode --sdk_dir "C:\Program Files (x86)\Windows Kits\8.1" --m64 --parse_templates --gen_c_file_name "D:/Temp1/tmpxft_00002c74_00000000-6_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_00002c74_00000000-6_CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "D:/Temp1/tmpxft_00002c74_00000000-4_CMakeCUDACompilerId.module_id" "D:/Temp1/tmpxft_00002c74_00000000-5_CMakeCUDACompilerId.cpp4.ii" 
+  #$ cl.exe @"D:\Temp1/tmpxft_00002c74_00000000-11.res" -Fo"Debug/CMakeCUDACompilerId.cu.obj" 
+  tmpxft_00002c74_00000000-6_CMakeCUDACompilerId.cudafe1.cpp
+  #$ erase D:\Temp1/tmpxft_00002c74_00000000-11.res
+已完成生成项目“D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\3.21.1\CompilerIdCUDA\CompilerIdCUDA.vcxproj”(CudaBuildCore 个目标)的操作。
+Link:
+  D:\vs2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\NVIDIA\CUDA\lib\x64 cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCUDA.lib" /MACHINE:X64 Debug\CMakeCUDACompilerId.cu.obj
+    正在创建库 .\CompilerIdCUDA.lib 和对象 .\CompilerIdCUDA.exp
+  CompilerIdCUDA.vcxproj -> D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\3.21.1\CompilerIdCUDA\.\CompilerIdCUDA.exe
+PostBuildEvent:
+  echo CMAKE_CUDA_COMPILER=D:\NVIDIA\CUDA\bin\nvcc.exe
+  :VCEnd
+  CMAKE_CUDA_COMPILER=D:\NVIDIA\CUDA\bin\nvcc.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdCUDA.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdCUDA.tlog\CompilerIdCUDA.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\3.21.1\CompilerIdCUDA\CompilerIdCUDA.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:04.16
+
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exe"
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exp"
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.lib"
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.vcxproj"
+
+The CUDA compiler identification is NVIDIA, found in "D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/CMakeFiles/CheckCUDA/CMakeFiles/3.21.1/CompilerIdCUDA/CompilerIdCUDA.exe"
+
+Parsed CUDA nvcc include information from above output:
+  found 'INCLUDES=' string: ["-ID:\NVIDIA\CUDA\bin/../include"  ]
+
+
+
+Detecting CUDA compiler ABI info compiled with the following output:
+Change Dir: D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_49fa9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) 生成引擎版本 14.0.25420.1
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  Compiling CUDA source file ..\..\..\..\..\..\..\cmake\share\cmake-3.21\Modules\CMakeCUDACompilerABI.cu...
+  
+  D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp>"D:\NVIDIA\CUDA\bin\nvcc.exe" -gencode=arch=compute_30,code=\"compute_30,compute_30\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "D:\vs2015\VC\bin\x86_amd64" -x cu   -ID:\NVIDIA\CUDA\include     --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g   -D_WINDOWS -D"CMAKE_INTDIR=\"Debug\"" -D_MBCS -D"CMAKE_INTDIR=\"Debug\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_49fa9.dir\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o cmTC_49fa9.dir\Debug\CMakeCUDACompilerABI.obj "D:\cmake\share\cmake-3.21\Modules\CMakeCUDACompilerABI.cu" 
+cl : 命令行 warning D9002: 忽略未知选项“-v” [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\sm_20_intrinsics.h(926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-v” [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\sm_20_intrinsics.h(926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+  CMakeCUDACompilerABI.cu
+cl : 命令行 warning D9002: 忽略未知选项“-v” [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]
+    正在创建库 D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp/Debug/cmTC_49fa9.lib 和对象 D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp/Debug/cmTC_49fa9.exp
+  cmTC_49fa9.vcxproj -> D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\Debug\cmTC_49fa9.exe
+  cmTC_49fa9.vcxproj -> D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp/Debug/cmTC_49fa9.pdb (Full PDB)
+
+
+
+Parsed CUDA implicit include dir info from above output: rv=start
+  warn: unable to parse implicit include dirs!
+
+
+Parsed CUDA implicit link information from above output:
+  link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe cmTC_49fa9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=14.0 /v:m && Microsoft (R) 生成引擎版本 14.0.25420.1]
+  ignore line: [版权所有(C) Microsoft Corporation。保留所有权利。]
+  ignore line: []
+  ignore line: [  Compiling CUDA source file ..\..\..\..\..\..\..\cmake\share\cmake-3.21\Modules\CMakeCUDACompilerABI.cu...]
+  ignore line: [  ]
+  ignore line: [  D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp>"D:\NVIDIA\CUDA\bin\nvcc.exe" -gencode=arch=compute_30 code=\"compute_30 compute_30\" -gencode=arch=compute_30 code=\"sm_30 compute_30\" --use-local-env -ccbin "D:\vs2015\VC\bin\x86_amd64" -x cu   -ID:\NVIDIA\CUDA\include     --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g   -D_WINDOWS -D"CMAKE_INTDIR=\"Debug\"" -D_MBCS -D"CMAKE_INTDIR=\"Debug\"" -Xcompiler "/EHsc /W1 /nologo /Od /FdcmTC_49fa9.dir\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o cmTC_49fa9.dir\Debug\CMakeCUDACompilerABI.obj "D:\cmake\share\cmake-3.21\Modules\CMakeCUDACompilerABI.cu" ]
+  ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-v” [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\sm_20_intrinsics.h(926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-v” [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\sm_20_intrinsics.h(926): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [d:\nvidia\cuda\include\cuda_runtime_api.h(9349): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [  CMakeCUDACompilerABI.cu]
+  ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-v” [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\cmTC_49fa9.vcxproj]]
+  ignore line: [    正在创建库 D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp/Debug/cmTC_49fa9.lib 和对象 D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp/Debug/cmTC_49fa9.exp]
+  ignore line: [  cmTC_49fa9.vcxproj -> D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\CheckCUDA\CMakeFiles\CMakeTmp\Debug\cmTC_49fa9.exe]
+  ignore line: [  cmTC_49fa9.vcxproj -> D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/CMakeFiles/CheckCUDA/CMakeFiles/CMakeTmp/Debug/cmTC_49fa9.pdb (Full PDB)]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+

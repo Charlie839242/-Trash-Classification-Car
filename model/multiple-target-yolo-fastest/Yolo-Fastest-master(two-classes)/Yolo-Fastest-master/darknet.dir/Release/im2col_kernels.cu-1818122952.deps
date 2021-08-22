@@ -1,0 +1,98 @@
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\assert.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_malloc.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_memcpy_s.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_memory.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_search.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_stdio_config.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdlib.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstring.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wtime.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\errno.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\math.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stddef.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h
+d:\nvidia\cuda\include\builtin_types.h
+d:\nvidia\cuda\include\channel_descriptor.h
+d:\nvidia\cuda\include\crt\common_functions.h
+d:\nvidia\cuda\include\crt\device_double_functions.h
+d:\nvidia\cuda\include\crt\device_double_functions.hpp
+d:\nvidia\cuda\include\crt\device_functions.h
+d:\nvidia\cuda\include\crt\device_functions.hpp
+d:\nvidia\cuda\include\crt\host_config.h
+d:\nvidia\cuda\include\crt\host_defines.h
+d:\nvidia\cuda\include\crt\math_functions.h
+d:\nvidia\cuda\include\crt\math_functions.hpp
+d:\nvidia\cuda\include\crt\mma.h
+d:\nvidia\cuda\include\crt\sm_70_rt.h
+d:\nvidia\cuda\include\cublas_api.h
+D:\NVIDIA\CUDA\include\cublas_v2.h
+d:\nvidia\cuda\include\cuComplex.h
+D:\NVIDIA\CUDA\include\cuda.h
+d:\nvidia\cuda\include\cuda_device_runtime_api.h
+D:\NVIDIA\CUDA\include\cuda_fp16.h
+d:\nvidia\cuda\include\cuda_fp16.hpp
+D:\NVIDIA\CUDA\include\cuda_runtime.h
+d:\nvidia\cuda\include\cuda_runtime_api.h
+d:\nvidia\cuda\include\cuda_surface_types.h
+d:\nvidia\cuda\include\cuda_texture_types.h
+D:\NVIDIA\CUDA\include\cudnn.h
+d:\nvidia\cuda\include\cudnn_adv_infer.h
+d:\nvidia\cuda\include\cudnn_adv_train.h
+d:\nvidia\cuda\include\cudnn_backend.h
+d:\nvidia\cuda\include\cudnn_cnn_infer.h
+d:\nvidia\cuda\include\cudnn_cnn_train.h
+d:\nvidia\cuda\include\cudnn_ops_infer.h
+d:\nvidia\cuda\include\cudnn_ops_train.h
+d:\nvidia\cuda\include\cudnn_version.h
+D:\NVIDIA\CUDA\include\curand.h
+d:\nvidia\cuda\include\device_atomic_functions.h
+d:\nvidia\cuda\include\device_launch_parameters.h
+d:\nvidia\cuda\include\device_types.h
+d:\nvidia\cuda\include\driver_functions.h
+d:\nvidia\cuda\include\driver_types.h
+d:\nvidia\cuda\include\library_types.h
+D:\NVIDIA\CUDA\include\mma.h
+d:\nvidia\cuda\include\sm_20_atomic_functions.h
+d:\nvidia\cuda\include\sm_20_intrinsics.h
+d:\nvidia\cuda\include\sm_30_intrinsics.h
+d:\nvidia\cuda\include\sm_32_atomic_functions.h
+d:\nvidia\cuda\include\sm_32_intrinsics.h
+d:\nvidia\cuda\include\sm_35_atomic_functions.h
+d:\nvidia\cuda\include\sm_35_intrinsics.h
+d:\nvidia\cuda\include\sm_60_atomic_functions.h
+d:\nvidia\cuda\include\sm_61_intrinsics.h
+d:\nvidia\cuda\include\surface_functions.h
+d:\nvidia\cuda\include\surface_indirect_functions.h
+d:\nvidia\cuda\include\surface_types.h
+d:\nvidia\cuda\include\texture_fetch_functions.h
+d:\nvidia\cuda\include\texture_indirect_functions.h
+d:\nvidia\cuda\include\texture_types.h
+d:\nvidia\cuda\include\vector_functions.h
+d:\nvidia\cuda\include\vector_functions.hpp
+d:\nvidia\cuda\include\vector_types.h
+D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include\pthread.h
+D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include\sched.h
+D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include\darknet.h
+d:\test\yolo-fastest-master1\yolo-fastest-master\src\dark_cuda.h
+d:\test\yolo-fastest-master1\yolo-fastest-master\src\im2col.h
+D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\im2col_kernels.cu
+D:\vs2015\VC\include\cmath
+D:\vs2015\VC\include\ConcurrencySal.h
+D:\vs2015\VC\include\crtdefs.h
+D:\vs2015\VC\include\cstdlib
+D:\vs2015\VC\include\limits.h
+D:\vs2015\VC\include\sal.h
+D:\vs2015\VC\include\stdint.h
+D:\vs2015\VC\include\use_ansi.h
+D:\vs2015\VC\include\vadefs.h
+D:\vs2015\VC\include\vcruntime.h
+D:\vs2015\VC\include\vcruntime_string.h
+D:\vs2015\VC\include\xkeycheck.h
+D:\vs2015\VC\include\xtgmath.h
+D:\vs2015\VC\include\xtr1common
+D:\vs2015\VC\include\yvals.h
