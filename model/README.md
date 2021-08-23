@@ -2,7 +2,11 @@
 ## model文件夹中包含了与yolo fastest模型训练相关的文件内容。
 部分参考了晨毅大佬的单目标人形检测作品：https://blog.csdn.net/weixin_37598106/article/details/116493674  
   
-最终成品结果如下（采用的model/BSP/）
+最终成品结果如下（采用的model/BSP/multiple-target-model (with nms)目录下的工程）：  
+![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/model/imgs/test.gif)    
+该模型在art-pi硬件上推理一次的时间是47ms：  
+![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/model/imgs/inference_time.gif)  
+
 
 该文件夹下：  
 
