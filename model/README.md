@@ -5,7 +5,7 @@
 最终成品结果如下（采用的model/BSP/multiple-target-model (with nms)目录下的工程）：  
 ![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/model/imgs/test.gif)    
 该模型在art-pi硬件上推理一次的时间是47ms：  
-![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/model/imgs/inference_time.gif)  
+![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/model/imgs/inference_time.png)  
 
 
 该文件夹下：  
