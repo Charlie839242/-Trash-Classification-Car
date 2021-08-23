@@ -19,13 +19,21 @@ BSP文件夹中包含了将转化后的tflite模型部署到art-pi开发板上�
 ## 模型简介
 该模型的基础是yolo fastest模型，由于该项目垃圾分类小车，所以我们利用yolo fastest模型来识别两种垃圾：塑料瓶和易拉罐。  
 
-由于art-pi只有50mFLOPS，而在官方给出的yolo fastest模型基础之上，将图片输出改成1*160*160* 1后，模型的计算量仍然接近50mFLOPs，如下图所示：  
+由于art-pi只有50mFLOPS，而在官方给出的yolo fastest模型基础之上，将图片输出改成1*160*160* 1后，模型的计算量仍然略微超过50mFLOPs，如下图所示：  
+![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/model/imgs/0.054BFLOPs.png)  
+
 
 由于我们还有yolo解码，nms处理等操作要进行，而这些都相当耗费计算量，因此模型尺寸需要进一步裁剪。  
 
 此时有两种选择，一种是继续减小输入图片的尺寸，另一种是修改模型结构来减少模型的FLOPs。  
-由于1*160*160* 1在已经比较模糊，例如下图：  
-所以不宜再减少输入图片尺寸，因此我们选择了修改模型结构，去掉了两个yolo层和若干卷积层，只保留一个yolo层和其他卷积层。在模型修改后，我们的模型的计算量达到0.012BFLOPs，已经能够较为流畅的在art-pi上运行（一次推理时间是47ms）。  
+由于1*160*160* 1在已经比较模糊，例如下图：  a_160_160_img.png
+![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/model/imgs/a_160_160_img.png)  
+
+所以不宜再减少输入图片尺寸，因此我们选择了修改模型结构，去掉了两个yolo层和若干卷积层，只保留一个yolo层和其他卷积层。在模型修改后，我们的模型的计算量达到0.012BFLOPs:  
+![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/model/imgs/0.012BFLOPs.png)
+此时已经能够较为流畅的在art-pi上运行（一次推理时间是47ms）。  
+在我们修改的模型结构上训练50000 epoch后达到较好效果，对于我们自己的测试集，其mAP达到了97.47%。  
+![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/model/imgs/test_mAP.png)
 
 
 
