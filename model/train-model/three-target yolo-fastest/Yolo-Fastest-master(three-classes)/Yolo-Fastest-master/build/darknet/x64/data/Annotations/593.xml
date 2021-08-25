@@ -1,0 +1,26 @@
+<annotation>
+	<folder>add</folder>
+	<filename>593.jpg</filename>
+	<path>D:\test\dataset\add\593.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>160</width>
+		<height>160</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>2</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>55</xmin>
+			<ymin>20</ymin>
+			<xmax>121</xmax>
+			<ymax>90</ymax>
+		</bndbox>
+	</object>
+</annotation>

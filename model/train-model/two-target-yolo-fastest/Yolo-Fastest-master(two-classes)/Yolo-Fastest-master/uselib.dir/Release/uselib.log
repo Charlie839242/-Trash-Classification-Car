@@ -1,0 +1,8 @@
+﻿  Building Custom Rule D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/CMakeLists.txt
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include" /I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src" /I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include" /ID:\NVIDIA\CUDA\include /ID:\opencv\opencv451\opencv\build\include /I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include" /ID:\NVIDIA\CUDA\include /W1 /WX- /Ox /Ob2 /D _MBCS /D WIN32 /D _WINDOWS /D NDEBUG /D USE_CMAKE_LIBS /D _CRT_RAND_S /D NOMINMAX /D _USE_MATH_DEFINES /D CUDNN /D OPENCV /D _CRT_SECURE_NO_WARNINGS /D GPU /D "CMAKE_INTDIR=\"Release\"" /Gm- /EHsc /MD /GS /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"uselib.dir\Release\\" /Fd"uselib.dir\Release\vc140.pdb" /Gd /TP /wd4013 /wd4018 /wd4028 /wd4047 /wd4068 /wd4090 /wd4101 /wd4113 /wd4133 /wd4190 /wd4244 /wd4267 /wd4305 /wd4477 /wd4996 /wd4819 /errorReport:prompt "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\yolo_console_dll.cpp"
+  
+  yolo_console_dll.cpp
+  uselib.vcxproj -> D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\Release\uselib.exe

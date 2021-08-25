@@ -1,0 +1,193 @@
+﻿  Building Custom Rule D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/CMakeLists.txt
+  Compiling CUDA source file src\activation_kernels.cu...
+  Compiling CUDA source file src\avgpool_layer_kernels.cu...
+  
+  D:\test\Yolo-Fastest-master1\Yolo-Fastest-master>"D:\NVIDIA\CUDA\bin\nvcc.exe" -gencode=arch=compute_30,code=\"compute_30,compute_30\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "D:\vs2015\VC\bin\x86_amd64" -x cu -rdc=true -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include" -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src" -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include" -ID:\opencv\opencv451\opencv\build\include -ID:\NVIDIA\CUDA\include -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include" -ID:\NVIDIA\CUDA\include     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart shared -Wno-deprecated-declarations -Xcompiler="/wd4013,/wd4018,/wd4028,/wd4047,/wd4068,/wd4090,/wd4101,/wd4113,/wd4133,/wd4190,/wd4244,/wd4267,/wd4305,/wd4477,/wd4996,/wd4819,/fp:fast,/DGPU,/DCUDNN,/DOPENCV /EHsc -Ob2"    -D_WINDOWS -DNDEBUG -DLIB_EXPORTS=1 -DUSE_CMAKE_LIBS -DCUDNN -DOPENCV -D_CRT_RAND_S -DNOMINMAX -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DGPU -D_TIMESPEC_DEFINED -D"CMAKE_INTDIR=\"Release\"" -Ddark_EXPORTS -D_WINDLL -D_MBCS -DWIN32 -D_WINDOWS -DNDEBUG -DLIB_EXPORTS=1 -DUSE_CMAKE_LIBS -DCUDNN -DOPENCV -D_CRT_RAND_S -DNOMINMAX -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DGPU -D_TIMESPEC_DEFINED -D"CMAKE_INTDIR=\"Release\"" -Ddark_EXPORTS -Xcompiler "/EHsc /W1 /nologo /O2 /Fddark.dir\Release\vc140.pdb /FS /Zi  /MD /GR" -o dark.dir\Release\activation_kernels.obj "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\activation_kernels.cu" 
+  
+  D:\test\Yolo-Fastest-master1\Yolo-Fastest-master>"D:\NVIDIA\CUDA\bin\nvcc.exe" -gencode=arch=compute_30,code=\"compute_30,compute_30\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "D:\vs2015\VC\bin\x86_amd64" -x cu -rdc=true -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include" -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src" -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include" -ID:\opencv\opencv451\opencv\build\include -ID:\NVIDIA\CUDA\include -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include" -ID:\NVIDIA\CUDA\include     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart shared -Wno-deprecated-declarations -Xcompiler="/wd4013,/wd4018,/wd4028,/wd4047,/wd4068,/wd4090,/wd4101,/wd4113,/wd4133,/wd4190,/wd4244,/wd4267,/wd4305,/wd4477,/wd4996,/wd4819,/fp:fast,/DGPU,/DCUDNN,/DOPENCV /EHsc -Ob2"    -D_WINDOWS -DNDEBUG -DLIB_EXPORTS=1 -DUSE_CMAKE_LIBS -DCUDNN -DOPENCV -D_CRT_RAND_S -DNOMINMAX -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DGPU -D_TIMESPEC_DEFINED -D"CMAKE_INTDIR=\"Release\"" -Ddark_EXPORTS -D_WINDLL -D_MBCS -DWIN32 -D_WINDOWS -DNDEBUG -DLIB_EXPORTS=1 -DUSE_CMAKE_LIBS -DCUDNN -DOPENCV -D_CRT_RAND_S -DNOMINMAX -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DGPU -D_TIMESPEC_DEFINED -D"CMAKE_INTDIR=\"Release\"" -Ddark_EXPORTS -Xcompiler "/EHsc /W1 /nologo /O2 /Fddark.dir\Release\vc140.pdb /FS /Zi  /MD /GR" -o dark.dir\Release\avgpool_layer_kernels.obj "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\avgpool_layer_kernels.cu" 
+D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/src/activation_kernels.cu(263): warning : variable "MISH_THRESHOLD" was declared but never referenced
+  
+  Compiling CUDA source file src\col2im_kernels.cu...
+  Compiling CUDA source file src\convolutional_kernels.cu...
+  Compiling CUDA source file src\blas_kernels.cu...
+  Compiling CUDA source file src\crop_layer_kernels.cu...
+  Compiling CUDA source file src\im2col_kernels.cu...
+  Compiling CUDA source file src\dropout_layer_kernels.cu...
+  Compiling CUDA source file src\maxpool_layer_kernels.cu...
+  Compiling CUDA source file src\network_kernels.cu...
+  Compiling CUDA source file src\deconvolutional_kernels.cu...
+  
+  D:\test\Yolo-Fastest-master1\Yolo-Fastest-master>"D:\NVIDIA\CUDA\bin\nvcc.exe" -gencode=arch=compute_30,code=\"compute_30,compute_30\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "D:\vs2015\VC\bin\x86_amd64" -x cu -rdc=true -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include" -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src" -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include" -ID:\opencv\opencv451\opencv\build\include -ID:\NVIDIA\CUDA\include -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include" -ID:\NVIDIA\CUDA\include     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart shared -Wno-deprecated-declarations -Xcompiler="/wd4013,/wd4018,/wd4028,/wd4047,/wd4068,/wd4090,/wd4101,/wd4113,/wd4133,/wd4190,/wd4244,/wd4267,/wd4305,/wd4477,/wd4996,/wd4819,/fp:fast,/DGPU,/DCUDNN,/DOPENCV /EHsc -Ob2"    -D_WINDOWS -DNDEBUG -DLIB_EXPORTS=1 -DUSE_CMAKE_LIBS -DCUDNN -DOPENCV -D_CRT_RAND_S -DNOMINMAX -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DGPU -D_TIMESPEC_DEFINED -D"CMAKE_INTDIR=\"Release\"" -Ddark_EXPORTS -D_WINDLL -D_MBCS -DWIN32 -D_WINDOWS -DNDEBUG -DLIB_EXPORTS=1 -DUSE_CMAKE_LIBS -DCUDNN -DOPENCV -D_CRT_RAND_S -DNOMINMAX -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DGPU -D_TIMESPEC_DEFINED -D"CMAKE_INTDIR=\"Release\"" -Ddark_EXPORTS -Xcompiler "/EHsc /W1 /nologo /O2 /Fddark.dir\Release\vc140.pdb /FS /Zi  /MD /GR" -o dark.dir\Release\col2im_kernels.obj "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\col2im_kernels.cu" 
+  
+  D:\test\Yolo-Fastest-master1\Yolo-Fastest-master>"D:\NVIDIA\CUDA\bin\nvcc.exe" -gencode=arch=compute_30,code=\"compute_30,compute_30\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "D:\vs2015\VC\bin\x86_amd64" -x cu -rdc=true -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include" -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src" -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include" -ID:\opencv\opencv451\opencv\build\include -ID:\NVIDIA\CUDA\include -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include" -ID:\NVIDIA\CUDA\include     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart shared -Wno-deprecated-declarations -Xcompiler="/wd4013,/wd4018,/wd4028,/wd4047,/wd4068,/wd4090,/wd4101,/wd4113,/wd4133,/wd4190,/wd4244,/wd4267,/wd4305,/wd4477,/wd4996,/wd4819,/fp:fast,/DGPU,/DCUDNN,/DOPENCV /EHsc -Ob2"    -D_WINDOWS -DNDEBUG -DLIB_EXPORTS=1 -DUSE_CMAKE_LIBS -DCUDNN -DOPENCV -D_CRT_RAND_S -DNOMINMAX -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DGPU -D_TIMESPEC_DEFINED -D"CMAKE_INTDIR=\"Release\"" -Ddark_EXPORTS -D_WINDLL -D_MBCS -DWIN32 -D_WINDOWS -DNDEBUG -DLIB_EXPORTS=1 -DUSE_CMAKE_LIBS -DCUDNN -DOPENCV -D_CRT_RAND_S -DNOMINMAX -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DGPU -D_TIMESPEC_DEFINED -D"CMAKE_INTDIR=\"Release\"" -Ddark_EXPORTS -Xcompiler "/EHsc /W1 /nologo /O2 /Fddark.dir\Release\vc140.pdb /FS /Zi  /MD /GR" -o dark.dir\Release\convolutional_kernels.obj "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\convolutional_kernels.cu" 
+  
+  D:\test\Yolo-Fastest-master1\Yolo-Fastest-master>"D:\NVIDIA\CUDA\bin\nvcc.exe" -gencode=arch=compute_30,code=\"compute_30,compute_30\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "D:\vs2015\VC\bin\x86_amd64" -x cu -rdc=true -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include" -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src" -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include" -ID:\opencv\opencv451\opencv\build\include -ID:\NVIDIA\CUDA\include -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include" -ID:\NVIDIA\CUDA\include     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart shared -Wno-deprecated-declarations -Xcompiler="/wd4013,/wd4018,/wd4028,/wd4047,/wd4068,/wd4090,/wd4101,/wd4113,/wd4133,/wd4190,/wd4244,/wd4267,/wd4305,/wd4477,/wd4996,/wd4819,/fp:fast,/DGPU,/DCUDNN,/DOPENCV /EHsc -Ob2"    -D_WINDOWS -DNDEBUG -DLIB_EXPORTS=1 -DUSE_CMAKE_LIBS -DCUDNN -DOPENCV -D_CRT_RAND_S -DNOMINMAX -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DGPU -D_TIMESPEC_DEFINED -D"CMAKE_INTDIR=\"Release\"" -Ddark_EXPORTS -D_WINDLL -D_MBCS -DWIN32 -D_WINDOWS -DNDEBUG -DLIB_EXPORTS=1 -DUSE_CMAKE_LIBS -DCUDNN -DOPENCV -D_CRT_RAND_S -DNOMINMAX -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DGPU -D_TIMESPEC_DEFINED -D"CMAKE_INTDIR=\"Release\"" -Ddark_EXPORTS -Xcompiler "/EHsc /W1 /nologo /O2 /Fddark.dir\Release\vc140.pdb /FS /Zi  /MD /GR" -o dark.dir\Release\crop_layer_kernels.obj "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\crop_layer_kernels.cu" 
+  
+  D:\test\Yolo-Fastest-master1\Yolo-Fastest-master>"D:\NVIDIA\CUDA\bin\nvcc.exe" -gencode=arch=compute_30,code=\"compute_30,compute_30\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "D:\vs2015\VC\bin\x86_amd64" -x cu -rdc=true -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include" -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src" -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include" -ID:\opencv\opencv451\opencv\build\include -ID:\NVIDIA\CUDA\include -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include" -ID:\NVIDIA\CUDA\include     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart shared -Wno-deprecated-declarations -Xcompiler="/wd4013,/wd4018,/wd4028,/wd4047,/wd4068,/wd4090,/wd4101,/wd4113,/wd4133,/wd4190,/wd4244,/wd4267,/wd4305,/wd4477,/wd4996,/wd4819,/fp:fast,/DGPU,/DCUDNN,/DOPENCV /EHsc -Ob2"    -D_WINDOWS -DNDEBUG -DLIB_EXPORTS=1 -DUSE_CMAKE_LIBS -DCUDNN -DOPENCV -D_CRT_RAND_S -DNOMINMAX -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DGPU -D_TIMESPEC_DEFINED -D"CMAKE_INTDIR=\"Release\"" -Ddark_EXPORTS -D_WINDLL -D_MBCS -DWIN32 -D_WINDOWS -DNDEBUG -DLIB_EXPORTS=1 -DUSE_CMAKE_LIBS -DCUDNN -DOPENCV -D_CRT_RAND_S -DNOMINMAX -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DGPU -D_TIMESPEC_DEFINED -D"CMAKE_INTDIR=\"Release\"" -Ddark_EXPORTS -Xcompiler "/EHsc /W1 /nologo /O2 /Fddark.dir\Release\vc140.pdb /FS /Zi  /MD /GR" -o dark.dir\Release\blas_kernels.obj "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\blas_kernels.cu" 
+  
+  
+  D:\test\Yolo-Fastest-master1\Yolo-Fastest-master>"D:\NVIDIA\CUDA\bin\nvcc.exe" -gencode=arch=compute_30,code=\"compute_30,compute_30\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "D:\vs2015\VC\bin\x86_amd64" -x cu -rdc=true -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include" -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src" -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include" -ID:\opencv\opencv451\opencv\build\include -ID:\NVIDIA\CUDA\include -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include" -ID:\NVIDIA\CUDA\include     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart shared -Wno-deprecated-declarations -Xcompiler="/wd4013,/wd4018,/wd4028,/wd4047,/wd4068,/wd4090,/wd4101,/wd4113,/wd4133,/wd4190,/wd4244,/wd4267,/wd4305,/wd4477,/wd4996,/wd4819,/fp:fast,/DGPU,/DCUDNN,/DOPENCV /EHsc -Ob2"    -D_WINDOWS -DNDEBUG -DLIB_EXPORTS=1 -DUSE_CMAKE_LIBS -DCUDNN -DOPENCV -D_CRT_RAND_S -DNOMINMAX -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DGPU -D_TIMESPEC_DEFINED -D"CMAKE_INTDIR=\"Release\"" -Ddark_EXPORTS -D_WINDLL -D_MBCS -DWIN32 -D_WINDOWS -DNDEBUG -DLIB_EXPORTS=1 -DUSE_CMAKE_LIBS -DCUDNN -DOPENCV -D_CRT_RAND_S -DNOMINMAX -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DGPU -D_TIMESPEC_DEFINED -D"CMAKE_INTDIR=\"Release\"" -Ddark_EXPORTS -Xcompiler "/EHsc /W1 /nologo /O2 /Fddark.dir\Release\vc140.pdb /FS /Zi  /MD /GR" -o dark.dir\Release\im2col_kernels.obj "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\im2col_kernels.cu" 
+  D:\test\Yolo-Fastest-master1\Yolo-Fastest-master>"D:\NVIDIA\CUDA\bin\nvcc.exe" -gencode=arch=compute_30,code=\"compute_30,compute_30\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "D:\vs2015\VC\bin\x86_amd64" -x cu -rdc=true -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include" -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src" -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include" -ID:\opencv\opencv451\opencv\build\include -ID:\NVIDIA\CUDA\include -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include" -ID:\NVIDIA\CUDA\include     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart shared -Wno-deprecated-declarations -Xcompiler="/wd4013,/wd4018,/wd4028,/wd4047,/wd4068,/wd4090,/wd4101,/wd4113,/wd4133,/wd4190,/wd4244,/wd4267,/wd4305,/wd4477,/wd4996,/wd4819,/fp:fast,/DGPU,/DCUDNN,/DOPENCV /EHsc -Ob2"    -D_WINDOWS -DNDEBUG -DLIB_EXPORTS=1 -DUSE_CMAKE_LIBS -DCUDNN -DOPENCV -D_CRT_RAND_S -DNOMINMAX -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DGPU -D_TIMESPEC_DEFINED -D"CMAKE_INTDIR=\"Release\"" -Ddark_EXPORTS -D_WINDLL -D_MBCS -DWIN32 -D_WINDOWS -DNDEBUG -DLIB_EXPORTS=1 -DUSE_CMAKE_LIBS -DCUDNN -DOPENCV -D_CRT_RAND_S -DNOMINMAX -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DGPU -D_TIMESPEC_DEFINED -D"CMAKE_INTDIR=\"Release\"" -Ddark_EXPORTS -Xcompiler "/EHsc /W1 /nologo /O2 /Fddark.dir\Release\vc140.pdb /FS /Zi  /MD /GR" -o dark.dir\Release\dropout_layer_kernels.obj "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\dropout_layer_kernels.cu" 
+  
+  D:\test\Yolo-Fastest-master1\Yolo-Fastest-master>"D:\NVIDIA\CUDA\bin\nvcc.exe" -gencode=arch=compute_30,code=\"compute_30,compute_30\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "D:\vs2015\VC\bin\x86_amd64" -x cu -rdc=true -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include" -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src" -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include" -ID:\opencv\opencv451\opencv\build\include -ID:\NVIDIA\CUDA\include -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include" -ID:\NVIDIA\CUDA\include     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart shared -Wno-deprecated-declarations -Xcompiler="/wd4013,/wd4018,/wd4028,/wd4047,/wd4068,/wd4090,/wd4101,/wd4113,/wd4133,/wd4190,/wd4244,/wd4267,/wd4305,/wd4477,/wd4996,/wd4819,/fp:fast,/DGPU,/DCUDNN,/DOPENCV /EHsc -Ob2"    -D_WINDOWS -DNDEBUG -DLIB_EXPORTS=1 -DUSE_CMAKE_LIBS -DCUDNN -DOPENCV -D_CRT_RAND_S -DNOMINMAX -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DGPU -D_TIMESPEC_DEFINED -D"CMAKE_INTDIR=\"Release\"" -Ddark_EXPORTS -D_WINDLL -D_MBCS -DWIN32 -D_WINDOWS -DNDEBUG -DLIB_EXPORTS=1 -DUSE_CMAKE_LIBS -DCUDNN -DOPENCV -D_CRT_RAND_S -DNOMINMAX -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DGPU -D_TIMESPEC_DEFINED -D"CMAKE_INTDIR=\"Release\"" -Ddark_EXPORTS -Xcompiler "/EHsc /W1 /nologo /O2 /Fddark.dir\Release\vc140.pdb /FS /Zi  /MD /GR" -o dark.dir\Release\maxpool_layer_kernels.obj "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\maxpool_layer_kernels.cu" 
+  
+  D:\test\Yolo-Fastest-master1\Yolo-Fastest-master>"D:\NVIDIA\CUDA\bin\nvcc.exe" -gencode=arch=compute_30,code=\"compute_30,compute_30\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "D:\vs2015\VC\bin\x86_amd64" -x cu -rdc=true -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include" -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src" -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include" -ID:\opencv\opencv451\opencv\build\include -ID:\NVIDIA\CUDA\include -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include" -ID:\NVIDIA\CUDA\include     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart shared -Wno-deprecated-declarations -Xcompiler="/wd4013,/wd4018,/wd4028,/wd4047,/wd4068,/wd4090,/wd4101,/wd4113,/wd4133,/wd4190,/wd4244,/wd4267,/wd4305,/wd4477,/wd4996,/wd4819,/fp:fast,/DGPU,/DCUDNN,/DOPENCV /EHsc -Ob2"    -D_WINDOWS -DNDEBUG -DLIB_EXPORTS=1 -DUSE_CMAKE_LIBS -DCUDNN -DOPENCV -D_CRT_RAND_S -DNOMINMAX -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DGPU -D_TIMESPEC_DEFINED -D"CMAKE_INTDIR=\"Release\"" -Ddark_EXPORTS -D_WINDLL -D_MBCS -DWIN32 -D_WINDOWS -DNDEBUG -DLIB_EXPORTS=1 -DUSE_CMAKE_LIBS -DCUDNN -DOPENCV -D_CRT_RAND_S -DNOMINMAX -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DGPU -D_TIMESPEC_DEFINED -D"CMAKE_INTDIR=\"Release\"" -Ddark_EXPORTS -Xcompiler "/EHsc /W1 /nologo /O2 /Fddark.dir\Release\vc140.pdb /FS /Zi  /MD /GR" -o dark.dir\Release\network_kernels.obj "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\network_kernels.cu" 
+  
+  D:\test\Yolo-Fastest-master1\Yolo-Fastest-master>"D:\NVIDIA\CUDA\bin\nvcc.exe" -gencode=arch=compute_30,code=\"compute_30,compute_30\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "D:\vs2015\VC\bin\x86_amd64" -x cu -rdc=true -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include" -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src" -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include" -ID:\opencv\opencv451\opencv\build\include -ID:\NVIDIA\CUDA\include -I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include" -ID:\NVIDIA\CUDA\include     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart shared -Wno-deprecated-declarations -Xcompiler="/wd4013,/wd4018,/wd4028,/wd4047,/wd4068,/wd4090,/wd4101,/wd4113,/wd4133,/wd4190,/wd4244,/wd4267,/wd4305,/wd4477,/wd4996,/wd4819,/fp:fast,/DGPU,/DCUDNN,/DOPENCV /EHsc -Ob2"    -D_WINDOWS -DNDEBUG -DLIB_EXPORTS=1 -DUSE_CMAKE_LIBS -DCUDNN -DOPENCV -D_CRT_RAND_S -DNOMINMAX -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DGPU -D_TIMESPEC_DEFINED -D"CMAKE_INTDIR=\"Release\"" -Ddark_EXPORTS -D_WINDLL -D_MBCS -DWIN32 -D_WINDOWS -DNDEBUG -DLIB_EXPORTS=1 -DUSE_CMAKE_LIBS -DCUDNN -DOPENCV -D_CRT_RAND_S -DNOMINMAX -D_USE_MATH_DEFINES -D_CRT_SECURE_NO_WARNINGS -DGPU -D_TIMESPEC_DEFINED -D"CMAKE_INTDIR=\"Release\"" -Ddark_EXPORTS -Xcompiler "/EHsc /W1 /nologo /O2 /Fddark.dir\Release\vc140.pdb /FS /Zi  /MD /GR" -o dark.dir\Release\deconvolutional_kernels.obj "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\deconvolutional_kernels.cu" 
+  avgpool_layer_kernels.cu
+  activation_kernels.cu
+D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/src/blas_kernels.cu(1086): warning : variable "out_index" was declared but never referenced
+  
+D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/src/blas_kernels.cu(1130): warning : variable "step" was set but never used
+  
+D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/src/blas_kernels.cu(1736): warning : variable "stage_id" was declared but never referenced
+  
+D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/src/dropout_layer_kernels.cu(140): warning : variable "cur_scale" was declared but never referenced
+  
+D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/src/dropout_layer_kernels.cu(245): warning : variable "cur_scale" was declared but never referenced
+  
+D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/src/dropout_layer_kernels.cu(262): warning : variable "block_prob" was declared but never referenced
+  
+D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/src/network_kernels.cu(364): warning : variable "l" was declared but never referenced
+  
+  col2im_kernels.cu
+  convolutional_kernels.cu
+  dropout_layer_kernels.cu
+  crop_layer_kernels.cu
+  deconvolutional_kernels.cu
+  network_kernels.cu
+  maxpool_layer_kernels.cu
+  im2col_kernels.cu
+  blas_kernels.cu
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include" /I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src" /I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include" /ID:\opencv\opencv451\opencv\build\include /ID:\NVIDIA\CUDA\include /I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include" /ID:\NVIDIA\CUDA\include /W1 /WX- /Ox /Ob2 /D _WINDLL /D _MBCS /D WIN32 /D _WINDOWS /D NDEBUG /D LIB_EXPORTS=1 /D USE_CMAKE_LIBS /D CUDNN /D OPENCV /D _CRT_RAND_S /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS /D GPU /D _TIMESPEC_DEFINED /D "CMAKE_INTDIR=\"Release\"" /D dark_EXPORTS /Gm- /EHsc /MD /GS /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"dark.dir\Release\\" /Fd"dark.dir\Release\vc140.pdb" /Gd /TP /wd4013 /wd4018 /wd4028 /wd4047 /wd4068 /wd4090 /wd4101 /wd4113 /wd4133 /wd4190 /wd4244 /wd4267 /wd4305 /wd4477 /wd4996 /wd4819 /errorReport:prompt "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\yolo_v2_class.cpp" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\http_stream.cpp" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\image_opencv.cpp"
+  
+  yolo_v2_class.cpp
+  http_stream.cpp
+  image_opencv.cpp
+  正在生成代码...
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\include" /I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src" /I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\stb\include" /ID:\opencv\opencv451\opencv\build\include /ID:\NVIDIA\CUDA\include /I"D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\3rdparty\pthreads\include" /ID:\NVIDIA\CUDA\include /W1 /WX- /Ox /Ob2 /D _WINDLL /D _MBCS /D WIN32 /D _WINDOWS /D NDEBUG /D LIB_EXPORTS=1 /D USE_CMAKE_LIBS /D CUDNN /D OPENCV /D _CRT_RAND_S /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS /D GPU /D _TIMESPEC_DEFINED /D "CMAKE_INTDIR=\"Release\"" /D dark_EXPORTS /Gm- /EHsc /MD /GS /fp:fast /Zc:wchar_t /Zc:forScope /Zc:inline /GR /openmp /Fo"dark.dir\Release\\" /Fd"dark.dir\Release\vc140.pdb" /Gd /TC /wd4013 /wd4018 /wd4028 /wd4047 /wd4068 /wd4090 /wd4101 /wd4113 /wd4133 /wd4190 /wd4244 /wd4267 /wd4305 /wd4477 /wd4996 /wd4819 /errorReport:prompt "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\activation_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\activations.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\art.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\avgpool_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\batchnorm_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\blas.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\box.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\captcha.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\cifar.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\classifier.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\coco.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\col2im.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\compare.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\connected_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\conv_lstm_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\convolutional_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\cost_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\cpu_gemm.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\crnn_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\crop_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\dark_cuda.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\data.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\deconvolutional_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\demo.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\detection_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\detector.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\dice.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\dropout_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\gaussian_yolo_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\gemm.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\getopt.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\gettimeofday.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\go.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\gru_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\im2col.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\image.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\list.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\local_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\lstm_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\matrix.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\maxpool_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\network.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\nightmare.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\normalization_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\option_list.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\parser.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\region_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\reorg_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\reorg_old_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\rnn.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\rnn_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\rnn_vid.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\route_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\sam_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\scale_channels_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\shortcut_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\softmax_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\super.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\swag.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\tag.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\tree.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\upsample_layer.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\utils.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\voxel.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\writing.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\yolo.c" "D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\yolo_layer.c"
+  
+  activation_layer.c
+  activations.c
+  art.c
+  avgpool_layer.c
+  batchnorm_layer.c
+  blas.c
+  box.c
+  captcha.c
+  cifar.c
+  classifier.c
+  coco.c
+  col2im.c
+  compare.c
+  connected_layer.c
+  conv_lstm_layer.c
+  convolutional_layer.c
+  cost_layer.c
+  cpu_gemm.c
+  crnn_layer.c
+  crop_layer.c
+  正在生成代码...
+  正在编译...
+  dark_cuda.c
+  data.c
+  deconvolutional_layer.c
+  demo.c
+  detection_layer.c
+  detector.c
+  dice.c
+  dropout_layer.c
+  gaussian_yolo_layer.c
+  gemm.c
+  getopt.c
+  gettimeofday.c
+  go.c
+  gru_layer.c
+  im2col.c
+  image.c
+  layer.c
+  list.c
+  local_layer.c
+  lstm_layer.c
+  正在生成代码...
+d:\test\yolo-fastest-master1\yolo-fastest-master\src\gemm.c(1197): warning C4752: 发现 Intel(R) 高级矢量扩展；请考虑使用 /arch:AVX
+d:\test\yolo-fastest-master1\yolo-fastest-master\src\gemm.c(1061): warning C4752: 发现 Intel(R) 高级矢量扩展；请考虑使用 /arch:AVX
+d:\test\yolo-fastest-master1\yolo-fastest-master\src\gemm.c(919): warning C4752: 发现 Intel(R) 高级矢量扩展；请考虑使用 /arch:AVX
+d:\test\yolo-fastest-master1\yolo-fastest-master\src\gemm.c(1353): warning C4752: 发现 Intel(R) 高级矢量扩展；请考虑使用 /arch:AVX
+d:\test\yolo-fastest-master1\yolo-fastest-master\src\gemm.c(802): warning C4752: 发现 Intel(R) 高级矢量扩展；请考虑使用 /arch:AVX
+d:\test\yolo-fastest-master1\yolo-fastest-master\src\gemm.c(720): warning C4752: 发现 Intel(R) 高级矢量扩展；请考虑使用 /arch:AVX
+d:\test\yolo-fastest-master1\yolo-fastest-master\src\gemm.c(1883): warning C4752: 发现 Intel(R) 高级矢量扩展；请考虑使用 /arch:AVX
+d:\test\yolo-fastest-master1\yolo-fastest-master\src\gemm.c(1668): warning C4752: 发现 Intel(R) 高级矢量扩展；请考虑使用 /arch:AVX
+  正在编译...
+  matrix.c
+  maxpool_layer.c
+  network.c
+  nightmare.c
+  normalization_layer.c
+  option_list.c
+  parser.c
+  region_layer.c
+  reorg_layer.c
+  reorg_old_layer.c
+  rnn.c
+  rnn_layer.c
+  rnn_vid.c
+  route_layer.c
+  sam_layer.c
+  scale_channels_layer.c
+  shortcut_layer.c
+  softmax_layer.c
+  super.c
+  swag.c
+  正在生成代码...
+  正在编译...
+  tag.c
+  tree.c
+  upsample_layer.c
+  utils.c
+  voxel.c
+  writing.c
+  yolo.c
+  yolo_layer.c
+  正在生成代码...
+  
+  D:\test\Yolo-Fastest-master1\Yolo-Fastest-master>"D:\NVIDIA\CUDA\bin\nvcc.exe" -dlink -o dark.dir\Release\darknet.device-link.obj -Xcompiler "/EHsc /W1 /nologo /O2 /Zi  /MD /GR" -LD:\NVIDIA\CUDA\lib\x64 D:\NVIDIA\CUDA\lib\x64\cudnn.lib D:\opencv\opencv451\opencv\build\x64\vc14\lib\opencv_world451.lib 3rdparty\pthreads\lib\pthreadVC2.lib wsock32.lib ws2_32.lib curand.lib cublas.lib cuda.lib cudadevrt.lib cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib -forward-unknown-to-host-compiler -Wno-deprecated-gpu-targets  -gencode=arch=compute_30,code=compute_30 -gencode=arch=compute_30,code=sm_30  --machine 64 dark.dir\Release\activation_kernels.obj dark.dir\Release\avgpool_layer_kernels.obj dark.dir\Release\blas_kernels.obj dark.dir\Release\col2im_kernels.obj dark.dir\Release\convolutional_kernels.obj dark.dir\Release\crop_layer_kernels.obj dark.dir\Release\deconvolutional_kernels.obj dark.dir\Release\dropout_layer_kernels.obj dark.dir\Release\im2col_kernels.obj dark.dir\Release\maxpool_layer_kernels.obj dark.dir\Release\network_kernels.obj 
+  cudnn.lib
+  opencv_world451.lib
+  pthreadVC2.lib
+  wsock32.lib
+  ws2_32.lib
+  curand.lib
+  cublas.lib
+  cuda.lib
+  cudadevrt.lib
+  cudart.lib
+  kernel32.lib
+  user32.lib
+  gdi32.lib
+  winspool.lib
+  shell32.lib
+  ole32.lib
+  oleaut32.lib
+  uuid.lib
+  comdlg32.lib
+  advapi32.lib
+  activation_kernels.obj
+  avgpool_layer_kernels.obj
+  blas_kernels.obj
+  col2im_kernels.obj
+  convolutional_kernels.obj
+  crop_layer_kernels.obj
+  deconvolutional_kernels.obj
+  dropout_layer_kernels.obj
+  im2col_kernels.obj
+  maxpool_layer_kernels.obj
+  network_kernels.obj
+    正在创建库 D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/Release/darknet.lib 和对象 D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/Release/darknet.exp
+  dark.vcxproj -> D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\Release\darknet.dll

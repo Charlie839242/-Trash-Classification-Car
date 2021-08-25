@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>33.jpg</filename>
+	<path>D:\test\Yolo-Fastest-master3\Yolo-Fastest-master\build\darknet\x64\data\images\33.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>160</width>
+		<height>160</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>0</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>55</xmin>
+			<ymin>39</ymin>
+			<xmax>80</xmax>
+			<ymax>137</ymax>
+		</bndbox>
+	</object>
+</annotation>

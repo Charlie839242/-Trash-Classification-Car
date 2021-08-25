@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{84663AE3-1AA0-39A5-9E44-8C0471335914}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 10.2.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3645458dba291a78367ceb3af014224f\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\cmake\bin\cmake.exe -SD:/test/Yolo-Fastest-master1/Yolo-Fastest-master -BD:/test/Yolo-Fastest-master1/Yolo-Fastest-master --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/Darknet.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\cmake\share\cmake-3.21\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\cmake\share\cmake-3.21\Modules\CMakeCInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCUDAInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeDependentOption.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeParseImplicitLinkInfo.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;D:\cmake\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake;D:\cmake\share\cmake-3.21\Modules\CheckIncludeFile.cmake;D:\cmake\share\cmake-3.21\Modules\CheckLanguage.cmake;D:\cmake\share\cmake-3.21\Modules\CheckLibraryExists.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\NVIDIA-CUDA.cmake;D:\cmake\share\cmake-3.21\Modules\FindOpenMP.cmake;D:\cmake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;D:\cmake\share\cmake-3.21\Modules\FindPackageMessage.cmake;D:\cmake\share\cmake-3.21\Modules\FindThreads.cmake;D:\cmake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-NVIDIA-CUDA.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;D:\cmake\share\cmake-3.21\Modules\SelectLibraryConfigurations.cmake;D:\cmake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake;D:\opencv\opencv451\opencv\build\OpenCVConfig-version.cmake;D:\opencv\opencv451\opencv\build\OpenCVConfig.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCUDACompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCXXCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeRCCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeSystem.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeLists.txt;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\DarknetConfig.cmake.in;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindCUDNN.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindPThreads_windows.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindStb.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\cmake\bin\cmake.exe -SD:/test/Yolo-Fastest-master1/Yolo-Fastest-master -BD:/test/Yolo-Fastest-master1/Yolo-Fastest-master --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/Darknet.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\cmake\share\cmake-3.21\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\cmake\share\cmake-3.21\Modules\CMakeCInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCUDAInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeDependentOption.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeParseImplicitLinkInfo.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;D:\cmake\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake;D:\cmake\share\cmake-3.21\Modules\CheckIncludeFile.cmake;D:\cmake\share\cmake-3.21\Modules\CheckLanguage.cmake;D:\cmake\share\cmake-3.21\Modules\CheckLibraryExists.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\NVIDIA-CUDA.cmake;D:\cmake\share\cmake-3.21\Modules\FindOpenMP.cmake;D:\cmake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;D:\cmake\share\cmake-3.21\Modules\FindPackageMessage.cmake;D:\cmake\share\cmake-3.21\Modules\FindThreads.cmake;D:\cmake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-NVIDIA-CUDA.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;D:\cmake\share\cmake-3.21\Modules\SelectLibraryConfigurations.cmake;D:\cmake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake;D:\opencv\opencv451\opencv\build\OpenCVConfig-version.cmake;D:\opencv\opencv451\opencv\build\OpenCVConfig.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCUDACompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCXXCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeRCCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeSystem.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeLists.txt;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\DarknetConfig.cmake.in;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindCUDNN.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindPThreads_windows.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindStb.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\cmake\bin\cmake.exe -SD:/test/Yolo-Fastest-master1/Yolo-Fastest-master -BD:/test/Yolo-Fastest-master1/Yolo-Fastest-master --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/Darknet.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\cmake\share\cmake-3.21\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\cmake\share\cmake-3.21\Modules\CMakeCInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCUDAInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeDependentOption.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeParseImplicitLinkInfo.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;D:\cmake\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake;D:\cmake\share\cmake-3.21\Modules\CheckIncludeFile.cmake;D:\cmake\share\cmake-3.21\Modules\CheckLanguage.cmake;D:\cmake\share\cmake-3.21\Modules\CheckLibraryExists.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\NVIDIA-CUDA.cmake;D:\cmake\share\cmake-3.21\Modules\FindOpenMP.cmake;D:\cmake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;D:\cmake\share\cmake-3.21\Modules\FindPackageMessage.cmake;D:\cmake\share\cmake-3.21\Modules\FindThreads.cmake;D:\cmake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-NVIDIA-CUDA.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;D:\cmake\share\cmake-3.21\Modules\SelectLibraryConfigurations.cmake;D:\cmake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake;D:\opencv\opencv451\opencv\build\OpenCVConfig-version.cmake;D:\opencv\opencv451\opencv\build\OpenCVConfig.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCUDACompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCXXCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeRCCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeSystem.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeLists.txt;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\DarknetConfig.cmake.in;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindCUDNN.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindPThreads_windows.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindStb.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\cmake\bin\cmake.exe -SD:/test/Yolo-Fastest-master1/Yolo-Fastest-master -BD:/test/Yolo-Fastest-master1/Yolo-Fastest-master --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/test/Yolo-Fastest-master1/Yolo-Fastest-master/Darknet.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\cmake\share\cmake-3.21\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\cmake\share\cmake-3.21\Modules\CMakeCInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCUDAInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeDependentOption.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeParseImplicitLinkInfo.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;D:\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;D:\cmake\share\cmake-3.21\Modules\CheckCSourceCompiles.cmake;D:\cmake\share\cmake-3.21\Modules\CheckIncludeFile.cmake;D:\cmake\share\cmake-3.21\Modules\CheckLanguage.cmake;D:\cmake\share\cmake-3.21\Modules\CheckLibraryExists.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;D:\cmake\share\cmake-3.21\Modules\Compiler\NVIDIA-CUDA.cmake;D:\cmake\share\cmake-3.21\Modules\FindOpenMP.cmake;D:\cmake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;D:\cmake\share\cmake-3.21\Modules\FindPackageMessage.cmake;D:\cmake\share\cmake-3.21\Modules\FindThreads.cmake;D:\cmake\share\cmake-3.21\Modules\Internal\CheckSourceCompiles.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows-NVIDIA-CUDA.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\Windows.cmake;D:\cmake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;D:\cmake\share\cmake-3.21\Modules\SelectLibraryConfigurations.cmake;D:\cmake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake;D:\opencv\opencv451\opencv\build\OpenCVConfig-version.cmake;D:\opencv\opencv451\opencv\build\OpenCVConfig.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules-debug.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules-release.cmake;D:\opencv\opencv451\opencv\build\x64\vc14\lib\OpenCVModules.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCUDACompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeCXXCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeRCCompiler.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\3.21.1\CMakeSystem.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeLists.txt;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\DarknetConfig.cmake.in;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindCUDNN.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindPThreads_windows.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\cmake\Modules\FindStb.cmake;D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\src\version.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\test\Yolo-Fastest-master1\Yolo-Fastest-master\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 10.2.targets" />
+  </ImportGroup>
+</Project>
