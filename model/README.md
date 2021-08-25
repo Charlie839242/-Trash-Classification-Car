@@ -17,6 +17,8 @@ models文件夹中包含了训练好的成品权重，以及h5和tflite文件。
 BSP文件夹中包含了将转化后的tflite模型部署到art-pi开发板上的全部工程文件，包括了yolo解码，nms处理等过程。
 
 ## 模型简介
+关于如何训练模型，可参考该仓库：[如何在只有cpu的win10笔记本上训练yolo fastest](https://github.com/Charlie839242/YOLO-Fastest-on-a-no-gpu-windows-computer)  
+
 该模型的基础是yolo fastest模型，由于该项目垃圾分类小车，所以我们利用yolo fastest模型来识别两种垃圾：塑料瓶和易拉罐。  
 
 由于art-pi只有50mFLOPS，而在官方给出的yolo fastest模型基础之上，将图片输出改成1*160*160* 1后，模型的计算量仍然略微超过50mFLOPs，如下图所示：  
