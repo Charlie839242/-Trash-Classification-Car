@@ -28,7 +28,7 @@ BSP文件夹中包含了将转化后的tflite模型部署到art-pi开发板上�
 由于我们还有yolo解码，nms处理等操作要进行，而这些都相当耗费计算量，因此模型尺寸需要进一步裁剪。  
 
 此时有两种选择，一种是继续减小输入图片的尺寸，另一种是修改模型结构来减少模型的FLOPs。  
-由于1*160*160* 1在已经比较模糊，例如下图：  
+由于1* 160* 160* 1在已经比较模糊，例如下图：  
 
 ![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/model/imgs/a_160_160_img.png)  
 
