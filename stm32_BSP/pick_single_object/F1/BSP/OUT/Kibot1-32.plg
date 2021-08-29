@@ -1,0 +1,21 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+D:\RT-ThreadStudio\workspace\car_pro_all\Kibot1-32出厂程序+逆运动学\Project\Kibot1-32.uvproj
+Project File Date:  08/19/2021
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling z_sensor.c...
+linking...
+Program Size: Code=44786 RO-data=2170 RW-data=576 ZI-data=8280  
+FromELF: creating hex file...
+"..\OUT\Kibot1-32.axf" - 0 Errors, 0 Warning(s).
+Build target 'Target 1'
+compiling z_sensor.c...
+linking...
+Program Size: Code=44786 RO-data=2170 RW-data=576 ZI-data=8280  
+FromELF: creating hex file...
+"..\OUT\Kibot1-32.axf" - 0 Errors, 0 Warning(s).

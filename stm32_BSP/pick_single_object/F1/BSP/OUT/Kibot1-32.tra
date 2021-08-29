@@ -1,0 +1,45 @@
+*** Creating Trace Output File '..\OUT\Kibot1-32.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\out\stm32f10x_it.o"'
+### List of Objects: adding '"..\out\core_cm3.o"'
+### List of Objects: adding '"..\out\system_stm32f10x.o"'
+### List of Objects: adding '"..\out\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\out\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\out\misc.o"'
+### List of Objects: adding '"..\out\stm32f10x_usart.o"'
+### List of Objects: adding '"..\out\stm32f10x_i2c.o"'
+### List of Objects: adding '"..\out\stm32f10x_tim.o"'
+### List of Objects: adding '"..\out\stm32f10x_spi.o"'
+### List of Objects: adding '"..\out\stm32f10x_adc.o"'
+### List of Objects: adding '"..\out\stm32f10x_dma.o"'
+### List of Objects: adding '"..\out\stm32f10x_flash.o"'
+### List of Objects: adding '"..\out\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"..\out\z_main.o"'
+### List of Objects: adding '"..\out\z_delay.o"'
+### List of Objects: adding '"..\out\z_global.o"'
+### List of Objects: adding '"..\out\z_gpio.o"'
+### List of Objects: adding '"..\out\z_ps2.o"'
+### List of Objects: adding '"..\out\z_rcc.o"'
+### List of Objects: adding '"..\out\z_timer.o"'
+### List of Objects: adding '"..\out\z_usart.o"'
+### List of Objects: adding '"..\out\z_w25q64.o"'
+### List of Objects: adding '"..\out\z_sensor.o"'
+### List of Objects: adding '"..\out\z_adc.o"'
+### List of Objects: adding '"..\out\z_color.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\out\stm32f10x_it.o" "..\out\core_cm3.o" "..\out\system_stm32f10x.o" "..\out\stm32f10x_gpio.o" "..\out\stm32f10x_rcc.o" "..\out\misc.o" "..\out\stm32f10x_usart.o" "..\out\stm32f10x_i2c.o" "..\out\stm32f10x_tim.o" "..\out\stm32f10x_spi.o" "..\out\stm32f10x_adc.o" "..\out\stm32f10x_dma.o" "..\out\stm32f10x_flash.o" "..\out\startup_stm32f10x_hd.o" "..\out\z_main.o" "..\out\z_delay.o" "..\out\z_global.o" "..\out\z_gpio.o" "..\out\z_ps2.o" "..\out\z_rcc.o" "..\out\z_timer.o" "..\out\z_usart.o" "..\out\z_w25q64.o" "..\out\z_sensor.o" "..\out\z_adc.o" "..\out\z_color.o" 
+--strict --scatter "..\OUT\Kibot1-32.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\LIST\Kibot1-32.map" -o ..\OUT\Kibot1-32.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\OUT\Kibot1-32.axf'
+### ADS-LD Command File: '..\OUT\Kibot1-32.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\OUT\Kibot1-32.lnp', Handle=0x000006F4
+### Writing '.lnp' file
+### ADS-LD Command file '..\OUT\Kibot1-32.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
