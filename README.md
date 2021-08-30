@@ -6,6 +6,8 @@
 ### **Demon 1**
 ![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/demo_1.gif)  
 
+## 小车图片：  
+![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/car_first_layer.jpg)  
 
 ## **使用的硬件**
 1. ART-Pi开发板  
@@ -17,7 +19,8 @@
 ART-Pi开发板配合ART-Pi多媒体扩展版和gc0328摄像头，可以实时采集图像，并输入yolo fastest模型，得到检测框的相关信息。  
 F103C8T6开发板作为下位机，控制机械臂和小车的移动。  
 F407ZGT6开发板作为中间媒体，负责接收ART-Pi返回的信息并对其解码，然后将相应的指令发送给F103C8T6，实现机械臂和小车的控制。  
-底盘结构如下所示：  
+
+## 工作流程：  
 ![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/car_first_layer.jpg)  
 
 
