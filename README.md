@@ -1,4 +1,8 @@
-# **-Trash-Classification-Car**
+# **-Trash-Classification-Car**  
+### **9月28日更新,已经移植到了树莓派上**
+详情请见另一个仓库[Deploy-yolo-fastest-tflite-on-raspberry](https://github.com/Charlie839242/Deploy-yolo-fastest-tflite-on-raspberry)  
+  
+  
 这是一个基于yolo-fastest模型的小车，主控是art-pi开发板，使用了rt thread操作系统。  
 **(之后会花点时间移植到到树莓派上)**  
 ----------------------------------  
@@ -27,7 +31,10 @@ F407ZGT6开发板作为中间媒体，负责接收ART-Pi返回的信息并对其
 
 ## 工作流程：  
 ![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/work_flow.png)  
-
+  
+    
+      
+      
 ### **9月28日更新,已经移植到了树莓派上**
 详情请见另一个仓库[Deploy-yolo-fastest-tflite-on-raspberry](https://github.com/Charlie839242/Deploy-yolo-fastest-tflite-on-raspberry)
 
