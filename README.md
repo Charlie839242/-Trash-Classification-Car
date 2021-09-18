@@ -1,5 +1,5 @@
 # **-Trash-Classification-Car**  
-### **9月28日更新,已经移植到了树莓派上**
+### **9月18日更新,已经移植到了树莓派上**
 详情请见另一个仓库[Deploy-yolo-fastest-tflite-on-raspberry](https://github.com/Charlie839242/Deploy-yolo-fastest-tflite-on-raspberry)  
   
   
@@ -35,7 +35,7 @@ F407ZGT6开发板作为中间媒体，负责接收ART-Pi返回的信息并对其
     
       
       
-### **9月28日更新,已经移植到了树莓派上**
+### **9月18日更新,已经移植到了树莓派上**
 详情请见另一个仓库[Deploy-yolo-fastest-tflite-on-raspberry](https://github.com/Charlie839242/Deploy-yolo-fastest-tflite-on-raspberry)
 
 
