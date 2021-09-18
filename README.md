@@ -1,10 +1,13 @@
 # **-Trash-Classification-Car**
-这是一个基于yolo-fastest模型的小车，主控是art-pi开发板，使用了rt thread操作系统。  
+这是一个基于yolo-fastest模型的小车，主控是art-pi开发板，使用了rt thread操作系统。
+## (之后会考虑在树莓派上实现)
 该小车能够识别特定种类的垃圾，然后移动到垃圾附近并使用机械臂将其拾取并放置在垃圾筐内。
 
 ## **演示效果**    
 ### **Demo 1**
 ![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/demo_1.gif)  
+### **Demo 2**  
+
 
 ## 小车图片：  
 ![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/car_first_layer.jpg)  
