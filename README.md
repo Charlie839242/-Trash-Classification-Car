@@ -12,12 +12,12 @@
 ## **演示效果**    
 ### **Demo 1**
 &emsp;&emsp;**demo1存在一些问题：**  
-如小车有时对不准，距离目标过远时容易走偏，车两侧的铝板使小车在旋转时不够稳定等等。  
+&emsp;&emsp;如小车有时对不准，距离目标过远时容易走偏，车两侧的铝板使小车在旋转时不够稳定等等。  
 ![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/demo_1.gif)  
 ### **Demo 2**  
 &emsp;&emsp;**demo2对demo1中的问题进行一系列的改进：**  
-对于小车对不准的问题，我们采用了在距离目标一定距离时进行第二次PID调整，这样使得小车积累一定误差后能将误差清零。  
-对于车身不稳，我们改进了机械结构，采用一个篮子并改变了摄像头和机械臂的位置，已经机械臂的初始状态。  
+&emsp;&emsp;对于小车对不准的问题，我们采用了在距离目标一定距离时进行第二次PID调整，这样使得小车积累一定误差后能将误差清零。  
+&emsp;&emsp;对于车身不稳，我们改进了机械结构，采用一个篮子并改变了摄像头和机械臂的位置，以及机械臂的初始状态。  
 ![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/demo_2.gif)  
 
 
