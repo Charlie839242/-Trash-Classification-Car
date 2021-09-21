@@ -1,10 +1,19 @@
-# **-Trash-Classification-Car**
+# **-Trash-Classification-Car**  
+### **9月18日更新,已经移植到了树莓派上**
+详情请见另一个仓库[Deploy-yolo-fastest-tflite-on-raspberry](https://github.com/Charlie839242/Deploy-yolo-fastest-tflite-on-raspberry)  
+  
+  
 这是一个基于yolo-fastest模型的小车，主控是art-pi开发板，使用了rt thread操作系统。  
+**(之后会花点时间移植到到树莓派上)**  
+----------------------------------  
+
 该小车能够识别特定种类的垃圾，然后移动到垃圾附近并使用机械臂将其拾取并放置在垃圾筐内。
 
 ## **演示效果**    
-### **Demon 1**
+### **Demo 1**
 ![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/demo_1.gif)  
+### **Demo 2**  
+
 
 ## 小车图片：  
 ![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/car_first_layer.jpg)  
@@ -21,7 +30,13 @@ F103C8T6开发板作为下位机，控制机械臂和小车的移动。
 F407ZGT6开发板作为中间媒体，负责接收ART-Pi返回的信息并对其解码，然后将相应的指令发送给F103C8T6，实现机械臂和小车的控制。  
 
 ## 工作流程：  
-![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/car_first_layer.jpg)  
+![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/work_flow.png)  
+  
+    
+      
+      
+### **9月18日更新,已经移植到了树莓派上**
+详情请见另一个仓库[Deploy-yolo-fastest-tflite-on-raspberry](https://github.com/Charlie839242/Deploy-yolo-fastest-tflite-on-raspberry)
 
 
 
