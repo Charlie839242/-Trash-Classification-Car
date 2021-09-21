@@ -12,7 +12,7 @@
 ## **演示效果**    
 ### **Demo 1**
 &emsp;&emsp;**demo1存在一些问题：**  
-如小车有时对不准，距离目标过远时容易走偏，车两侧的铝板使小车在旋转时不够稳定等等。
+如小车有时对不准，距离目标过远时容易走偏，车两侧的铝板使小车在旋转时不够稳定等等。  
 ![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/demo_1.gif)  
 ### **Demo 2**  
 &emsp;&emsp;**demo2对demo1中的问题进行一系列的改进：**  
