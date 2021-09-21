@@ -16,8 +16,8 @@
 ![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/demo_1.gif)  
 ### **Demo 2**  
 &emsp;&emsp;**demo2对demo1中的问题进行一系列的改进：**  
-&emsp;&emsp;对于小车对不准的问题，我们采用了在距离目标一定距离时进行第二次PID调整，这样使得小车积累一定误差后能将误差清零。  
-&emsp;&emsp;对于车身不稳，我们改进了机械结构，采用一个篮子并改变了摄像头和机械臂的位置，以及机械臂的初始状态。  
+&emsp;&emsp;对于小车对不准的问题，我们采用了在距离目标一定距离时进行第二次PID调整，这样使得小车积累一定误差后能将误差清零。在视频中，可以看到小车在一定距离时有一明显停顿，这就是在进行第二次PID调整。  
+&emsp;&emsp;对于车身不稳，我们改进了机械结构，采用一个篮子并改变了摄像头和机械臂的位置，以及机械臂的初始状态，使得小车质量分布更集中。    
 ![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/demo_2.gif)  
 
 
