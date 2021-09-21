@@ -22,7 +22,7 @@
 &emsp;&emsp;![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/demo_2.gif)  
 
 
-## 小车图片：  
+## 小车图片***demo1***：  
 ![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/car_first_layer.jpg)  
 
 ## **使用的硬件**
