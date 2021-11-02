@@ -10,12 +10,19 @@
 该小车能够识别特定种类的垃圾，然后移动到垃圾附近并使用机械臂将其拾取并放置在垃圾筐内。
 
 ## **演示效果**    
-### **Demo 1**
-![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/demo_1.gif)  
-### **Demo 2**  
+### ***Demo 1***
+&emsp;&emsp;**demo1存在一些问题：**  
+&emsp;&emsp;如小车有时对不准，距离目标过远时容易走偏，车两侧的铝板使小车在旋转时不够稳定等等。  
+&emsp;&emsp;![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/demo_1.gif)  
+### ***Demo 2***
+&emsp;&emsp;**demo2对demo1中的问题进行一系列的改进：**  
+&emsp;&emsp;对于小车对不准的问题，我们采用了在距离目标一定距离时进行第二次PID调整，这样使得小车积累一定误差后能将误差清零。在视频中，  
+&emsp;&emsp;可以看到小车在一定距离时有一明显停顿，这就是在进行第二次PID调整。  
+&emsp;&emsp;对于车身不稳，我们改进了机械结构，采用一个篮子并改变了摄像头和机械臂的位置，以及机械臂的初始状态，使得小车质量分布更集中。    
+&emsp;&emsp;![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/demo_2.gif)  
 
 
-## 小车图片：  
+## 小车图片***demo1***：  
 ![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/car_first_layer.jpg)  
 
 ## **使用的硬件**
