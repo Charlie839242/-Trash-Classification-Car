@@ -1,8 +1,8 @@
 # **-Trash-Classification-Car**  
 ### **9月18日更新,已经移植到了树莓派上**
 详情请见另一个仓库[Deploy-yolo-fastest-tflite-on-raspberry](https://github.com/Charlie839242/Deploy-yolo-fastest-tflite-on-raspberry)  
-  
-  
+
+
 这是一个基于yolo-fastest模型的小车，主控是art-pi开发板，使用了rt thread操作系统。  
 **(之后会花点时间移植到到树莓派上)**  
 ----------------------------------  
@@ -21,6 +21,14 @@
 &emsp;&emsp;对于车身不稳，我们改进了机械结构，采用一个篮子并改变了摄像头和机械臂的位置，以及机械臂的初始状态，使得小车质量分布更集中。    
 &emsp;&emsp;![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/demo_2.gif)  
 
+### ***Demo 3***
+
+​		在demo3中添加了特定标志物的识别（如视频中的三角形）。当小车一段时间没有检测到垃圾后，就会寻找特定标志物，以返回到特定位置。通过摆放多个特定标志物，可以实现一个导航的功能。
+
+![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/demo_3.gif)  
+
+
+
 
 ## 小车图片***demo1***：  
 ![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/car_first_layer.jpg)  
@@ -38,10 +46,10 @@ F407ZGT6开发板作为中间媒体，负责接收ART-Pi返回的信息并对其
 
 ## 工作流程：  
 ![image](https://github.com/Charlie839242/-Trash-Classification-Car/blob/main/imgs/work_flow.png)  
-  
-    
-      
-      
+
+
+​      
+​      
 ### **9月18日更新,已经移植到了树莓派上**
 详情请见另一个仓库[Deploy-yolo-fastest-tflite-on-raspberry](https://github.com/Charlie839242/Deploy-yolo-fastest-tflite-on-raspberry)
 
